@@ -1,0 +1,22 @@
+{
+  "name": "projeto-gulp",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "author": "Rander Carlos",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.8"
+  }
+}
