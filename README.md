@@ -25,7 +25,7 @@
 
 <div align="center" style="font-size: 1.2rem">
 
-[Clique aqui para acessar o projeto online](https://lp-redesign-bank.netlify.app/)
+[Clique aqui para acessar o projeto online](https://lp-blizard.netlify.app)
 
 </div>
 
@@ -46,6 +46,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Google Fonts](https://fonts.google.com/)
 - [Swipper.js](https://swiperjs.com/)
 - [AOS.js](https://michalsnik.github.io/aos/)
+- [Gulp.js](https://gulpjs.com/)
 
 
 ## 💻 Projeto
@@ -74,9 +75,7 @@ rentes dispositivos existentes.
 
 - Navegador moderno atualizado para acesso ao site como Chrome, Firefox, Edge, Safari, Opera e etc.
 
-- Compilador de SASS(plugin sass do visual studio ou software Scout-app)
-
-- Servidor Web(live server plugin do VSCode ou outro qualquer)
+- Gulp instalado na máquina
 
 
 ## ⚙️ Instalação e execução
@@ -85,12 +84,14 @@ rentes dispositivos existentes.
 
 Baixe o arquivo zip e o descompacte ou baixe o projeto para sua máquina através do git clone [https://github.com/randercarlos/lp-blizzard.git](https://github.com/randercarlos/lp-blizzard.git)
 
+- Navegue até a pasta do projeto :
+`cd pasta-do-projeto`
 
-- Configure o compilador de Sass parar gerar o CSS final na pasta `/css/main.min.css`:
+- Rodar o automatizador de tarefas gulp na raiz do projeto com o comando:
+`gulp`
 
-- Configure um servidor web para servir o site numa porta:
-
-- Acesse o site na porta configurada do servidor web...
+- Acessar o site em:
+`http://localhost:3000/`
 
 Desenvolvido por Rander Carlos :wave: [<img alt="License" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/rander-carlos-308a63a8)
 [<img alt="License" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">](randerccf@gmail.com)
